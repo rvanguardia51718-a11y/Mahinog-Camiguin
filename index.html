@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Discover Mahinog, Camiguin | My BaranMgay Website</title>
+<meta name="description" content="Discover Mahinog, Camiguin — a coastal municipal known for Mantigue Island, Katunggan Park, and warm island hospitality.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ HEADER / NAVIGATION ============ -->
+<header class="site-header">
+  <nav class="navbar" aria-label="Main navigation">
+    <a href="index.html" class="brand">
+      <span class="brand-mark"><img src="images/mahinog_logo.jpg" alt="Barangay Mahinog logo" style="width:100%; height:100%; object-fit:cover; border-radius:50%;"></span>
+      <span class="brand-text">Mahinog<small>Camiguin, Philippines</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="officials.html">Officials</a></li>
+      <li><a href="tourism.html">Where to Go</a></li>
+      <li><a href="food.html">Where to Eat</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="announcements.html">Announcements</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ============ HERO BANNER (auto-sliding background) ============ -->
+  <section class="hero hero-slideshow" id="heroSlideshow">
+    <div class="hero-slide" style="background-image:url('images/munisipyo.jpg');"></div>
+    <div class="hero-slide" style="background-image:url('images/rizal.jpg');"></div>
+    <div class="hero-slide" style="background-image:url('images/cams1.jpg');"></div>
+    <div class="hero-slide" style="background-image:url('images/cams2.jpg');"></div>
+
+    <div class="container hero-content">
+      <p class="eyebrow fade-in">Island Paradise Awaits</p>
+      <h1 class="fade-in delay-1">Discover Mahinog, Camiguin</h1>
+      <p class="lead fade-in delay-2">A quiet coastal community where sandbars, mangrove trails, and warm island hospitality meet. This is our home — welcome to it.</p>
+      <a href="#welcome" class="btn btn-primary fade-in delay-3">Explore Mahinog</a>
+    </div>
+
+    <div class="hero-slide-dots" aria-hidden="true">
+      <span class="hero-slide-dot"></span>
+      <span class="hero-slide-dot"></span>
+      <span class="hero-slide-dot"></span>
+      <span class="hero-slide-dot"></span>
+    </div>
+  </section>
+  <div class="wave-divider" aria-hidden="true">
+    <svg viewBox="0 0 1200 70" preserveAspectRatio="none"><path d="M0,40 C300,80 900,0 1200,40 L1200,70 L0,70 Z" fill="#FFFFFF"></path></svg>
+  </div>
+
+  <!-- ============ WELCOME / INTRO ============ -->
+  <section id="welcome">
+    <div class="container split">
+      <div class="reveal">
+        <p class="eyebrow">Mabuhay, Mahinognon!</p>
+        <h2>Welcome to our municipality</h2>
+        <p>Mahinog is a municipal on the eastern side of Camiguin Island, facing the strait toward Mindanao. Known locally as the gateway near Benoni Port, Mahinog blends fishing traditions, farming, and a growing appreciation for the natural wonders in its waters and forests.</p>
+        <p>From the sandbar of Mantigue Island to the quiet mangrove boardwalks of Katunggan Park, Mahinog offers a slower, more grounded side of Camiguin one shaped by its people as much as its scenery.</p>
+        <a href="about.html" class="btn btn-small">Read our story</a>
+      </div>
+      <div class="reveal welcome-media">
+        <div class="welcome-video-card">
+          <div class="video-embed">
+            <iframe
+              src="https://www.youtube.com/embed/Ujeb4Sat8GY"
+              title="Camiguin Isle Be There"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURED ATTRACTIONS ============ -->
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <h2>Featured Attractions</h2>
+        <p>A preview of the places that make Mahinog worth the trip.</p>
+      </div>
+      <div class="grid grid-3">
+        <article class="card reveal">
+          <img src="images/mantigue_island1.jpg" alt="Placeholder photo of Mantigue Island sandbar">
+          <div class="card-body">
+            <span class="card-tag">Island</span>
+            <h3>Mantigue Island</h3>
+            <p>A small islet with a white sandbar, clear water, and coral gardens just off Mahinog's coast.</p>
+            <div class="card-footer">
+              <span class="review-stars">★★★★★</span>
+              <a href="mantigue-island.html" class="btn btn-small">Read More</a>
+            </div>
+          </div>
+        </article>
+        <article class="card reveal">
+          <img src="images/katunggan_Park1.jpg" alt="Placeholder photo of Katunggan Park mangrove boardwalk">
+          <div class="card-body">
+            <span class="card-tag">Nature Park</span>
+            <h3>Katunggan Park</h3>
+            <p>A mangrove eco-park with a wooden boardwalk winding through century-old mangrove trees.</p>
+            <div class="card-footer">
+              <span class="review-stars">★★★★☆</span>
+              <a href="katunggan-park.html" class="btn btn-small">Read More</a>
+            </div>
+          </div>
+        </article>
+        <article class="card reveal">
+          <img src="images/taguiness_lagoon1.jpg" alt="Placeholder photo of Taguines Lagoon">
+          <div class="card-body">
+            <span class="card-tag">Lagoon</span>
+            <h3>Taguines Lagoon</h3>
+            <p>A calm brackish lagoon ringed by nipa huts, popular for relaxed afternoons and local gatherings.</p>
+            <div class="card-footer">
+              <span class="review-stars">★★★★☆</span>
+              <a href="taguines-lagoon.html" class="btn btn-small">Read More</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ THE MAHINOG RITUAL (itinerary timeline) ============ -->
+  <section class="bg-light">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">A Suggested 3-Day Stay</p>
+        <h2>The Mahinog Ritual</h2>
+        <p>A curated pace through the municipal's shoreline, mangroves, and tables — balanced for adventure and rest.</p>
+      </div>
+      <div class="ritual-timeline">
+        <div class="ritual-day reveal">
+          <div class="ritual-num">01</div>
+          <h3>Shoreline &amp; Sandbar</h3>
+          <ul class="ritual-list">
+            <li><span class="ritual-time">7:00</span><span>Sunrise boat crossing to Mantigue Island</span></li>
+            <li><span class="ritual-time">10:00</span><span>Snorkeling the coral gardens offshore</span></li>
+            <li><span class="ritual-time">13:00</span><span>Fresh catch lunch at Lagoon Bistro</span></li>
+            <li><span class="ritual-time">18:00</span><span>Evening stroll along Benoni Port</span></li>
+          </ul>
+        </div>
+        <div class="ritual-day reveal">
+          <div class="ritual-num">02</div>
+          <h3>Mangroves &amp; Lagoon</h3>
+          <ul class="ritual-list">
+            <li><span class="ritual-time">8:00</span><span>Boardwalk through Katunggan Park</span></li>
+            <li><span class="ritual-time">11:00</span><span>Cool-off dip at Macao Cold Spring</span></li>
+            <li><span class="ritual-time">14:00</span><span>Catch-your-own bangus at J&amp;A Fishpen</span></li>
+            <li><span class="ritual-time">19:00</span><span>Sunset dinner at Nouveau Resort</span></li>
+          </ul>
+        </div>
+        <div class="ritual-day reveal">
+          <div class="ritual-num">03</div>
+          <h3>Hills &amp; Heritage</h3>
+          <ul class="ritual-list">
+            <li><span class="ritual-time">7:30</span><span>Morning trek up Mt. Luwan viewpoint</span></li>
+            <li><span class="ritual-time">11:00</span><span>Overlook coffee break at Minsua View Deck</span></li>
+            <li><span class="ritual-time">14:00</span><span>Visit the municipal hall &amp; local officials</span></li>
+            <li><span class="ritual-time">17:00</span><span>Farewell merienda at Caleeb's Cafe</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LOCAL FLAVORS ============ -->
+  <section>
+    <div class="container">
+      <div class="section-head">
+
+        <h2>Local Flavors</h2>
+        <p>A taste of Mahinog's home-grown seafood dining before you plan your full food trip.</p>
+      </div>
+      <div class="grid grid-3">
+        <article class="card reveal">
+          <img src="images/dining_nouveau.jpg" alt="Placeholder photo of Nouveau Resort">
+          <div class="card-body">
+            <span class="card-tag">Resort Restaurant</span>
+            <h3>Nouveau Resort</h3>
+            <p class="review-quote">An elegant resort restaurant in Tupsan Pequeño offering a mix of international and local cuisine overlooking the sea.</p>
+            <div class="card-footer">
+              <span class="review-stars">★★★★★</span>
+              <a href="nouveau-resort.html" class="btn btn-small">Read More</a>
+            </div>
+          </div>
+        </article>
+        <article class="card reveal">
+          <img src="images/JandA.jpg" alt="Placeholder photo of J&A Fishpen Floating Restaurant">
+          <div class="card-body">
+            <span class="card-tag">Floating Restaurant</span>
+            <h3>J&amp;A Fishpen</h3>
+            <p class="review-quote">A floating seafood restaurant at Taguines Lagoon where you can catch your own fish and have it cooked on the spot.</p>
+            <div class="card-footer">
+              <span class="review-stars">★★★★★</span>
+              <a href="janda-fishpen.html" class="btn btn-small">Read More</a>
+            </div>
+          </div>
+        </article>
+        <article class="card reveal">
+          <img src="images/bistro.jpg" alt="Placeholder photo of Lagoon Bistro">
+          <div class="card-body">
+            <span class="card-tag">Seafood Restaurant</span>
+            <h3>Lagoon Bistro</h3>
+            <p class="review-quote">A casual restaurant overlooking Taguines Lagoon, known for fresh seafood and its catch-your-own bangus fishpond.</p>
+            <div class="card-footer">
+              <span class="review-stars">★★★★☆</span>
+              <a href="lagoon-bistro.html" class="btn btn-small">Read More</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CALL TO ACTION ============ -->
+  <section class="bg-teal">
+    <div class="container" style="text-align:center;">
+      <h2 class="reveal">Plan your visit to Mahinog</h2>
+      <p class="reveal" style="max-width:60ch; margin:0 auto var(--space-sm);">From island hopping to home-cooked seafood, Mahinog is ready to welcome you. Check our tourism guide and local eats before you sail in.</p>
+      <a href="tourism.html" class="btn btn-primary reveal">Explore Mahinog</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h4>Visit Us</h4>
+        <p>Mahinog Municipal Hall, Poblacion, Mahinog, 9100 Province of Camiguin</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="officials.html">Officials</a></li>
+          <li><a href="tourism.html">Where to Go</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="announcements.html">Announcements</a></li>
+          <li><a href="food.html">Where to Eat</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>0998-314-0838</li>
+          <li>lgumahinog@yahoo.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Municipal Mahinog, Camiguin.</p>
+    </div>
+  </div>
+</footer>
+
+<button class="scroll-top" aria-label="Scroll back to top">↑</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
